@@ -1,4 +1,4 @@
-#DNS-server
+# DNS-server
 Troubleshooting van de DNS-server
  
  Functie| Commando
@@ -12,7 +12,7 @@ Troubleshooting van de DNS-server
  Poortnummer veranderen van DNS (kan helpen) | ```nslookup -port "poortnummer" "domeinnaam" (vb nslookup -port 54 google.com)```
  Flush DNS cache | ```/etc/rc.d/init.d/nscd restart``` OF ```/etc/init.d/nscd restart```
  
- ##BIND server voor troubleshooting?
+ ## BIND server voor troubleshooting?
  
   Functie| Commando
  ----------| -------------------
