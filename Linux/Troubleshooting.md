@@ -13,6 +13,7 @@ Troubleshooting van de DNS-server
  Flush DNS cache | ```/etc/rc.d/init.d/nscd restart``` OF ```/etc/init.d/nscd restart```
  
  ##BIND server voor troubleshooting?
+ 
   Functie| Commando
  ----------| -------------------
  BIND server starten | ```service named start```
