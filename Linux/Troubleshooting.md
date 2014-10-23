@@ -10,3 +10,11 @@ Troubleshooting van de DNS-server
  DNS registreren | ```ipconfig /registerdns```
  DNS instellingen tonen | ```ipconfig /displaydns```
  Poortnummer veranderen van DNS (kan helpen) | ```nslookup -port "poortnummer" "domeinnaam" (vb nslookup -port 54 google.com)```
+ Flush DNS cache | ```/etc/rc.d/init.d/nscd restart OF /etc/init.d/nscd restart```
+ 
+ ##BIND server voor troubleshooting?
+ BIND server starten | ```service named start```
+ BIND server stoppen | ```service named stop```
+ BIND server restarten | ```service named restart```
+ BIND server reloaden | ```service named reload```
+ BIND server status | ```service named status```
