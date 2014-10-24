@@ -11,6 +11,8 @@ Troubleshooting van de DNS-server
  DNS instellingen tonen | ```ipconfig /displaydns```
  Poortnummer veranderen van DNS (kan helpen) | ```nslookup -port "poortnummer" "domeinnaam" (vb nslookup -port 54 google.com)```
  Flush DNS cache | ```/etc/rc.d/init.d/nscd restart``` OF ```/etc/init.d/nscd restart```
+ Dig, een tool om de DNS server te ondervragen | ```dig "domeinnaam"```
+ http://g33kinfo.com/info/archives/1548
  
  # BIND server voor troubleshooting?
  
